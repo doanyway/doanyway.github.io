@@ -1,24 +1,10 @@
 ---
 layout: default
+menu: main
 ---
+## Hi! I’m James, and I am a junior iOS developer.
 
-<div class="home">
+I am looking for work.
 
-  <h1 class="page-heading">Posts</h1>
+**Thanks for stopping by!**
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-[I'm an inline-style link](https://www.google.com)
-
-
-</div>
